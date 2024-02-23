@@ -19,7 +19,7 @@ function Links() {
     <section className="container py-6 font-dekko flex flex-col gap-8 lg:flex-row items-center">
       <a
         href={`tel:${siteConfig.phone}`}
-        className="py-10 w-full bg-neutral-200 text-3xl rounded-md flex flex-col justify-center items-center"
+        className="hover:scale-105 transition-transform duration-500 py-10 w-full bg-neutral-200 text-3xl rounded-md flex flex-col justify-center items-center"
       >
         <div className="flex gap-4">
           <PiPhoneDuotone />
@@ -29,7 +29,7 @@ function Links() {
       </a>
       <a
         href={`mailto:${siteConfig.email}`}
-        className="py-10 w-full bg-neutral-200 text-3xl rounded-md flex flex-col justify-center items-center"
+        className="hover:scale-105 transition-transform duration-500 py-10 w-full bg-neutral-200 text-3xl rounded-md flex flex-col justify-center items-center"
       >
         <div className="flex gap-4">
           {" "}
@@ -42,7 +42,7 @@ function Links() {
         href={siteConfig.linkedin}
         target="_blank"
         rel="noopener noreferrer"
-        className="py-10 w-full bg-neutral-200 text-3xl rounded-md flex flex-col justify-center items-center"
+        className="hover:scale-105 transition-transform duration-500 py-10 w-full bg-neutral-200 text-3xl rounded-md flex flex-col justify-center items-center"
       >
         <div className="flex gap-4">
           <PiLinkedinLogoDuotone />
