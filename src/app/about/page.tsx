@@ -23,7 +23,7 @@ function AboutMe() {
         </p>
       </div>
       <div className="md:w-1/2">
-        <img src="/profile.png" alt="About me" className="w-full lg:px-20" />
+        <img src="/profile.webp" alt="About me" className="w-full lg:px-20" />
       </div>
     </section>
   );
