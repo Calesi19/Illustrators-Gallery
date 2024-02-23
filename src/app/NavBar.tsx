@@ -1,7 +1,7 @@
 // Code for the header and navigation bar
 
 import React from "react";
-import { siteConfig } from "../config/siteConfig";
+import { siteConfig } from "../../config/siteConfig";
 
 function Header() {
   const style = "font-sketch text-center lowercase";

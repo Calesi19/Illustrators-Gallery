@@ -1,5 +1,5 @@
 import React from "react";
-import { siteConfig } from "../config/siteConfig";
+import { siteConfig } from "../../config/siteConfig";
 
 export default function Footer() {
   return (

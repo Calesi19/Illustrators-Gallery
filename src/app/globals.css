@@ -24,12 +24,6 @@ body {
   }
 }
 
-@font-face {
-  font-family: "Cabin Sketch";
-  src: url("../../public/fonts/CabinSketch-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
 
 @font-face {
   font-family: "Dekko";
@@ -37,3 +31,12 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+
+@font-face {
+  font-family: "Cabin Sketch";
+  src: url("../../public/fonts/CabinSketch-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
