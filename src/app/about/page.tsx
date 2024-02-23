@@ -12,7 +12,7 @@ export default function About() {
 
 function AboutMe() {
   return (
-    <section className="container py-12 font-dekko flex flex-col-reverse lg:flex-row items-center">
+    <section className="container py-12 font-dekko flex flex-col-reverse lg:flex-row items-center justify-center">
       <div className=" flex flex-col lg:px-16 basis-1/2 mt-16">
         {" "}
         <h3 className="text-4xl font-bold text-neutral-700">
@@ -23,7 +23,7 @@ function AboutMe() {
         </p>
       </div>
       <div className="md:w-1/2">
-        <img src="/profile.png" alt="About me" className="w-full" />
+        <img src="/profile.png" alt="About me" className="w-full lg:w-1/2" />
       </div>
     </section>
   );

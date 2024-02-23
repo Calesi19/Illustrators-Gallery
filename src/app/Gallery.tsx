@@ -7,62 +7,57 @@ const imagesArray = [
   {
     alt: "Image1's alt text",
     caption: "Image1's description",
-    src: "/example.png",
+    src: "/artwork/1.png",
   },
   {
     alt: "Image2's alt text",
     caption: "Image2's description",
-    src: "/example.png",
+    src: "/artwork/2.png",
   },
   {
     alt: "Image3's alt text",
     caption: "Image3's description",
-    src: "/example2.png",
+    src: "/artwork/3.png",
   },
   {
     alt: "Image1's alt text",
     caption: "Image1's description",
-    src: "/example.png",
+    src: "/artwork/6.png",
   },
   {
     alt: "Image2's alt text",
     caption: "Image2's description",
-    src: "/example2.png",
+    src: "/artwork/5.png",
   },
   {
     alt: "Image3's alt text",
     caption: "Image3's description",
-    src: "/example2.png",
-  },
-  {
-    alt: "Image1's alt text",
-    caption: "Image1's description",
-    src: "/example.png",
+    src: "/artwork/4.png",
   },
   {
     alt: "Image2's alt text",
     caption: "Image2's description",
-    src: "/example2.png",
+    src: "/artwork/7.png",
   },
   {
     alt: "Image3's alt text",
     caption: "Image3's description",
-    src: "/example.png",
-  },
-  {
-    alt: "Image1's alt text",
-    caption: "Image1's description",
-    src: "/example.png",
+    src: "/artwork/8.png",
   },
   {
     alt: "Image2's alt text",
     caption: "Image2's description",
-    src: "/example2.png",
+    src: "/artwork/9.png",
   },
   {
     alt: "Image3's alt text",
     caption: "Image3's description",
-    src: "/example2.png",
+    src: "/artwork/10.png",
+  },
+  {
+    alt: "Image3's alt text",
+    caption: "Image3's description",
+    src: "/artwork/11.png",
   },
 ];
 
