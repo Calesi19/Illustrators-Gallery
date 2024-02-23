@@ -8,6 +8,6 @@ export const siteConfig = {
   about_body:
     "I am a freelance illustrator based in Minnesota. I specialize in digital illustration and character design. I am currently available for freelance work.",
   email: "jayme.mendez@gmail.com",
-  phone: "787-988-9447",
+  phone: "612-242-0890",
   linkedin: "https://www.linkedin.com/in/jayme-m-b5148a25a/",
 };
