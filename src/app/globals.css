@@ -40,3 +40,23 @@ body {
   font-style: normal;
 }
 
+body {
+  position: relative;
+  background-color: white;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/canvas.jpg');
+  background-repeat: repeat;
+  opacity: 0.3; /* Adjust the opacity as needed */
+  z-index: -1;
+}
+
+
