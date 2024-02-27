@@ -17,6 +17,11 @@ const imagesArray = [
   {
     alt: "Image3's alt text",
     caption: "Image3's description",
+    src: "/artwork/15.png",
+  },
+  {
+    alt: "Image3's alt text",
+    caption: "Image3's description",
     src: "/artwork/3.png",
   },
   {
@@ -45,9 +50,19 @@ const imagesArray = [
     src: "/artwork/8.png",
   },
   {
+    alt: "Image3's alt text",
+    caption: "Image3's description",
+    src: "/artwork/14.png",
+  },
+  {
     alt: "Image2's alt text",
     caption: "Image2's description",
     src: "/artwork/9.png",
+  },
+  {
+    alt: "Image3's alt text",
+    caption: "Image3's description",
+    src: "/artwork/13.png",
   },
   {
     alt: "Image3's alt text",
@@ -58,6 +73,11 @@ const imagesArray = [
     alt: "Image3's alt text",
     caption: "Image3's description",
     src: "/artwork/11.png",
+  },
+  {
+    alt: "Image3's alt text",
+    caption: "Image3's description",
+    src: "/artwork/12.png",
   },
 ];
 
