@@ -7,6 +7,11 @@ const imagesArray = [
   {
     alt: "Image1's alt text",
     caption: "Image1's description",
+    src: "/artwork/16.png",
+  },
+  {
+    alt: "Image1's alt text",
+    caption: "Image1's description",
     src: "/artwork/1.png",
   },
   {
