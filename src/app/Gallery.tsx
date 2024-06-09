@@ -6,82 +6,82 @@ import { ImageGallery } from 'react-image-grid-gallery';
 const imagesArray = [
   {
     alt: "Image1's alt text",
-    caption: "Image1's description",
+    caption: "Whale in the ocean",
     src: "/artwork/16.png",
   },
   {
     alt: "Image1's alt text",
-    caption: "Image1's description",
+    caption: "Aztec Woman",
     src: "/artwork/1.png",
   },
   {
     alt: "Image2's alt text",
-    caption: "Image2's description",
+    caption: "Alfred the Crocodile",
     src: "/artwork/2.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "Underwater Turtle",
     src: "/artwork/15.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "Simple Man",
     src: "/artwork/3.png",
   },
   {
     alt: "Image1's alt text",
-    caption: "Image1's description",
+    caption: "Red,Red,Red",
     src: "/artwork/6.png",
   },
   {
     alt: "Image2's alt text",
-    caption: "Image2's description",
+    caption: "Fish on a Pirate Ship",
     src: "/artwork/5.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "Custom Harry Potter Cover",
     src: "/artwork/4.png",
   },
   {
     alt: "Image2's alt text",
-    caption: "Image2's description",
+    caption: "Balance",
     src: "/artwork/7.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "Color Matching a Bottle",
     src: "/artwork/8.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "The Majestic Condor",
     src: "/artwork/14.png",
   },
   {
     alt: "Image2's alt text",
-    caption: "Image2's description",
+    caption: "Man in a Cave",
     src: "/artwork/9.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "Whale Poster",
     src: "/artwork/13.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "The Creation of Adam",
     src: "/artwork/10.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "Windows to Art",
     src: "/artwork/11.png",
   },
   {
     alt: "Image3's alt text",
-    caption: "Image3's description",
+    caption: "Peace Poster",
     src: "/artwork/12.png",
   },
 ];
