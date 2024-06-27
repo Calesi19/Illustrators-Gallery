@@ -7,15 +7,14 @@ function Header() {
   const style = "font-sketch text-center lowercase";
 
   return (
-    <header className="py-12 container">
-      <h1 className={`text-7xl text-neutral-700 ${style}`}>
-        {siteConfig.first_name}
-        <br />
-        {siteConfig.last_name}
-      </h1>
-      <h2 className={`text-3xl text-neutral-600 ${style}`}>
-        {siteConfig.title}
-      </h2>
+    <header className="py-12 container ">
+      <div className="flex justify-center items-center">
+        <img
+          src="navbanner.gif"
+          alt="Jayme Mendez Illustrations"
+          className="h-[200px] object-cover"
+        />
+      </div>
       <Navigation />
     </header>
   );
