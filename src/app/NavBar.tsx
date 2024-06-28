@@ -10,7 +10,7 @@ function Header() {
     <header className="py-12 container ">
       <div className="flex justify-center items-center">
         <img
-          src="navbanner.gif"
+          src="navbanner.webp"
           alt="Jayme Mendez Illustrations"
           className="h-[200px] object-cover"
         />
