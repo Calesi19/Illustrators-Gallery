@@ -35,6 +35,21 @@ const imagesArray = [
     src: "/artwork/14.webp",
   },
   {
+    alt: "Bear Skating",
+    caption: "Bear Skating",
+    src: "/artwork/bearhappy.webp",
+  },
+  {
+    alt: "Bear at the beach",
+    caption: "Bear at the beach",
+    src: "/artwork/bearbeach.webp",
+  },
+  {
+    alt: "Trick or Treat",
+    caption: "Trick or Treat",
+    src: "/artwork/bearscary.webp",
+  },
+  {
     alt: "Peace Poster",
     caption: "Peace Poster",
     src: "/artwork/duckthink.webp",
@@ -45,8 +60,8 @@ const imagesArray = [
     src: "/artwork/bearduck.webp",
   },
   {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
+    alt: "Bear and Duck",
+    caption: "Bear and Duck",
     src: "/artwork/bearlake.webp",
   },
   {
@@ -54,21 +69,7 @@ const imagesArray = [
     caption: "Windows to Art",
     src: "/artwork/11.webp",
   },
-  {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/bearhappy.webp",
-  },
-  {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/bearbeach.webp",
-  },
-  {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/bearscary.webp",
-  },
+
   {
     alt: "Peace Poster",
     caption: "Peace Poster",
