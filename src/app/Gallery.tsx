@@ -10,9 +10,9 @@ const imagesArray = [
     src: "/artwork/16.webp",
   },
   {
-    alt: "Underwater Turtle",
-    caption: "Underwater Turtle",
-    src: "/artwork/15.webp",
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/ocean.webp",
   },
   {
     alt: "Custom Harry Potter Cover",
@@ -27,19 +27,17 @@ const imagesArray = [
   {
     alt: "Peace Poster",
     caption: "Peace Poster",
-    src: "/artwork/12.webp",
+    src: "/artwork/wizardcat.webp",
   },
-
   {
     alt: "The Majestic Condor",
     caption: "The Majestic Condor",
     src: "/artwork/14.webp",
   },
-
   {
-    alt: "Windows to Art",
-    caption: "Windows to Art",
-    src: "/artwork/11.webp",
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/duckthink.webp",
   },
   {
     alt: "Peace Poster",
@@ -52,9 +50,9 @@ const imagesArray = [
     src: "/artwork/bearlake.webp",
   },
   {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/duckthink.webp",
+    alt: "Windows to Art",
+    caption: "Windows to Art",
+    src: "/artwork/11.webp",
   },
   {
     alt: "Peace Poster",
@@ -74,12 +72,12 @@ const imagesArray = [
   {
     alt: "Peace Poster",
     caption: "Peace Poster",
-    src: "/artwork/wizardcat.webp",
+    src: "/artwork/12.webp",
   },
   {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/ocean.webp",
+    alt: "Underwater Turtle",
+    caption: "Underwater Turtle",
+    src: "/artwork/15.webp",
   },
 ];
 
