@@ -15,11 +15,6 @@ const imagesArray = [
     src: "/artwork/ocean.webp",
   },
   {
-    alt: "Custom Harry Potter Cover",
-    caption: "Custom Harry Potter Cover",
-    src: "/artwork/4.webp",
-  },
-  {
     alt: "Balance",
     caption: "Balance",
     src: "/artwork/7.webp",
@@ -68,12 +63,6 @@ const imagesArray = [
     alt: "Windows to Art",
     caption: "Windows to Art",
     src: "/artwork/11.webp",
-  },
-
-  {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/12.webp",
   },
   {
     alt: "Underwater Turtle",
