@@ -53,7 +53,7 @@ const imagesArray = [
   {
     alt: "Peace Poster",
     caption: "Peace Poster",
-    src: "/artwork/bearsad.webp",
+    src: "/artwork/ducksad.webp",
   },
   {
     alt: "Peace Poster",
