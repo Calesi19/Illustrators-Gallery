@@ -40,6 +40,46 @@ const imagesArray = [
     caption: "Peace Poster",
     src: "/artwork/12.webp",
   },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/bearduck.webp",
+  },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/bearlake.webp",
+  },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/bearsad.webp",
+  },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/bearhappy.webp",
+  },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/bearbeach.webp",
+  },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/bearscary.webp",
+  },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/wizardcat.webp",
+  },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/ocean.webp",
+  },
 ];
 
 export default function Gallery() {
