@@ -22,7 +22,7 @@ const imagesArray = [
   {
     alt: "Peace Poster",
     caption: "Peace Poster",
-    src: "/artwork/wizardcat.webp",
+    src: "/artwork/wizardcatdark.webp",
   },
   {
     alt: "The Majestic Condor",
