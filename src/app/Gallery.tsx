@@ -25,6 +25,12 @@ const imagesArray = [
     src: "/artwork/7.webp",
   },
   {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/12.webp",
+  },
+
+  {
     alt: "The Majestic Condor",
     caption: "The Majestic Condor",
     src: "/artwork/14.webp",
@@ -34,11 +40,6 @@ const imagesArray = [
     alt: "Windows to Art",
     caption: "Windows to Art",
     src: "/artwork/11.webp",
-  },
-  {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/12.webp",
   },
   {
     alt: "Peace Poster",
@@ -53,7 +54,7 @@ const imagesArray = [
   {
     alt: "Peace Poster",
     caption: "Peace Poster",
-    src: "/artwork/ducksad.webp",
+    src: "/artwork/duckthink.webp",
   },
   {
     alt: "Peace Poster",
