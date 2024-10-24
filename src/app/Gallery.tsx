@@ -5,69 +5,84 @@ import { ImageGallery } from "react-image-grid-gallery";
 
 const imagesArray = [
   {
+    alt: "Father's Love",
+    caption: "Father's Love",
+    src: "/artwork/father-love.webp",
+  },
+  {
+    alt: "Colombia Poster",
+    caption: "Colombia Poster",
+    src: "/artwork/colombia-poster.webp",
+  },
+  {
+    alt: "Colombia",
+    caption: "Colombia",
+    src: "/artwork/colombia.webp",
+  },
+  {
+    alt: "Fly and Spider",
+    caption: "Fly and Spider",
+    src: "/artwork/fly-and-spider.webp",
+  },
+  {
+    alt: "Girl in the Woods",
+    caption: "Girl in the Woods",
+    src: "/artwork/girl-in-woods.webp",
+  },
+  {
+    alt: "RV Camping",
+    caption: "RV Camping",
+    src: "/artwork/rv-camping.webp",
+  },
+  {
+    alt: "Narwhal",
+    caption: "Narwhal",
+    src: "/artwork/narwhal.webp",
+  },
+  {
     alt: "Whale in the ocean",
     caption: "Whale in the ocean",
-    src: "/artwork/16.webp",
+    src: "/artwork/whale.webp",
   },
   {
     alt: "Peace Poster",
     caption: "Peace Poster",
-    src: "/artwork/ocean.webp",
+    src: "/artwork/peace.webp",
   },
   {
     alt: "Balance",
     caption: "Balance",
-    src: "/artwork/7.webp",
+    src: "/artwork/rocks.webp",
   },
   {
     alt: "Peace Poster",
     caption: "Peace Poster",
-    src: "/artwork/wizardcatdark.webp",
+    src: "/artwork/wizard-cat.webp",
   },
   {
     alt: "The Majestic Condor",
     caption: "The Majestic Condor",
-    src: "/artwork/14.webp",
-  },
-  {
-    alt: "Bear Skating",
-    caption: "Bear Skating",
-    src: "/artwork/bearhappy.webp",
-  },
-  {
-    alt: "Bear at the beach",
-    caption: "Bear at the beach",
-    src: "/artwork/bearbeach.webp",
+    src: "/artwork/condor-bw.webp",
   },
   {
     alt: "Trick or Treat",
     caption: "Trick or Treat",
-    src: "/artwork/bearscary.webp",
-  },
-  {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/duckthink.webp",
-  },
-  {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/bearduck.webp",
+    src: "/artwork/bear-scary.webp",
   },
   {
     alt: "Bear and Duck",
     caption: "Bear and Duck",
-    src: "/artwork/bearlake.webp",
+    src: "/artwork/bear-lake.webp",
   },
   {
     alt: "Windows to Art",
     caption: "Windows to Art",
-    src: "/artwork/11.webp",
+    src: "/artwork/windows.webp",
   },
   {
     alt: "Underwater Turtle",
     caption: "Underwater Turtle",
-    src: "/artwork/15.webp",
+    src: "/artwork/turtles-bw.webp",
   },
 ];
 
