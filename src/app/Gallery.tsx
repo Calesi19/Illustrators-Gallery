@@ -45,24 +45,30 @@ const imagesArray = [
     src: "/artwork/whale.webp",
   },
   {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
-    src: "/artwork/peace.webp",
-  },
-  {
     alt: "Balance",
     caption: "Balance",
     src: "/artwork/rocks.webp",
   },
   {
-    alt: "Peace Poster",
-    caption: "Peace Poster",
+    alt: "Wizard and Cat",
+    caption: "Wizard and Cat",
     src: "/artwork/wizard-cat.webp",
   },
+  {
+    alt: "Peace Poster",
+    caption: "Peace Poster",
+    src: "/artwork/peace.webp",
+  },
+
   {
     alt: "The Majestic Condor",
     caption: "The Majestic Condor",
     src: "/artwork/condor-bw.webp",
+  },
+  {
+    alt: "Underwater Turtle",
+    caption: "Underwater Turtle",
+    src: "/artwork/turtles-bw.webp",
   },
   {
     alt: "Trick or Treat",
@@ -78,11 +84,6 @@ const imagesArray = [
     alt: "Windows to Art",
     caption: "Windows to Art",
     src: "/artwork/windows.webp",
-  },
-  {
-    alt: "Underwater Turtle",
-    caption: "Underwater Turtle",
-    src: "/artwork/turtles-bw.webp",
   },
 ];
 
