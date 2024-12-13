@@ -85,6 +85,51 @@ const imagesArray = [
     caption: "Windows to Art",
     src: "/artwork/windows.webp",
   },
+  {
+    alt: "Bread Float",
+    caption: "Bread Float",
+    src: "/artwork/bread.webp",
+  },
+  {
+    alt: "Calendar",
+    caption: "Calendar",
+    src: "/artwork/calendar.webp",
+  },
+  {
+    alt: "Calendar",
+    caption: "Calendar",
+    src: "/artwork/calendar-2.webp",
+  },
+  {
+    alt: "Self-Portrait",
+    caption: "Self-Portrait",
+    src: "/artwork/self-portrait.webp",
+  },
+  {
+    alt: "Instruments",
+    caption: "Instruments",
+    src: "/artwork/instruments.webp",
+  },
+  {
+    alt: "Shoes",
+    caption: "Shoes",
+    src: "/artwork/shoes.webp",
+  },
+  {
+    alt: "Cookies",
+    caption: "Cookies",
+    src: "/artwork/cookies.webp",
+  },
+  {
+    alt: "Love",
+    caption: "Love",
+    src: "/artwork/love.webp",
+  },
+  {
+    alt: "Ocean",
+    caption: "Ocean",
+    src: "/artwork/ocean.webp",
+  },
 ];
 
 export default function Gallery() {
