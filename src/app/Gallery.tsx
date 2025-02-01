@@ -5,6 +5,11 @@ import { ImageGallery } from "react-image-grid-gallery";
 
 const imagesArray = [
   {
+    alt: "Sunflower Boy",
+    caption: "Sunflower Boy",
+    src: "/artwork/sunflower.webp",
+  },
+  {
     alt: "Father's Love",
     caption: "Father's Love",
     src: "/artwork/father-love.webp",
