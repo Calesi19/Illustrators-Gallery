@@ -50,6 +50,11 @@ const imagesArray = [
     src: "/artwork/whale.webp",
   },
   {
+    alt: "i-love-you",
+    caption: "i-love-you",
+    src: "/artwork/i-love-you.webp",
+  },
+  {
     alt: "Balance",
     caption: "Balance",
     src: "/artwork/rocks.webp",
@@ -64,17 +69,21 @@ const imagesArray = [
     caption: "Peace Poster",
     src: "/artwork/peace.webp",
   },
-
+  {
+    alt: "Fisherfish",
+    caption: "Fisherfish",
+    src: "/artwork/fisherfish.webp",
+  },
   {
     alt: "The Majestic Condor",
     caption: "The Majestic Condor",
     src: "/artwork/condor-bw.webp",
   },
-  {
-    alt: "Underwater Turtle",
-    caption: "Underwater Turtle",
-    src: "/artwork/turtles-bw.webp",
-  },
+  // {
+  //   alt: "Underwater Turtle",
+  //   caption: "Underwater Turtle",
+  //   src: "/artwork/turtles-bw.webp",
+  // },
   {
     alt: "Trick or Treat",
     caption: "Trick or Treat",
