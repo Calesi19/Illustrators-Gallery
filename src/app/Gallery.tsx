@@ -51,7 +51,7 @@ const imagesArray = [
   },
   {
     alt: "i-love-you",
-    caption: "i-love-you",
+    caption: "To the Moon and Back",
     src: "/artwork/i-love-you.webp",
   },
   {
