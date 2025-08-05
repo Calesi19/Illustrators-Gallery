@@ -9,5 +9,5 @@ export const siteConfig = {
     "I am a freelance illustrator based in Minnesota. I specialize in paint and digital illustrations for children's books. I am currently available for freelance work.",
   email: "jayme0311@gmail.com",
   phone: "612-242-0890",
-  linkedin: "https://www.linkedin.com/in/jayme-m-b5148a25a/",
+  linkedin: "https://www.linkedin.com/in/jayme-wahlquist-b5148a25a/",
 };
