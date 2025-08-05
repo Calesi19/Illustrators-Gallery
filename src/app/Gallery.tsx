@@ -35,6 +35,26 @@ const imagesArray = [
     src: "/artwork/girl-in-woods.webp",
   },
   {
+    alt: "Vaquero",
+    caption: "A Western Poster",
+    src: "/artwork/vaquero.webp",
+  },
+  {
+    alt: "Fireworks",
+    caption: "Fireworks",
+    src: "/artwork/fireworks.webp",
+  },
+  {
+    alt: "Self Portrait",
+    caption: "Self Portrait",
+    src: "/artwork/self.webp",
+  },
+  {
+    alt: "Fish Boy",
+    caption: "Fishboy",
+    src: "/artwork/fishboy2.webp",
+  },
+  {
     alt: "RV Camping",
     caption: "RV Camping",
     src: "/artwork/rv-camping.webp",
