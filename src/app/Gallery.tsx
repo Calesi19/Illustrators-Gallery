@@ -50,6 +50,11 @@ const imagesArray = [
     src: "/artwork/self.webp",
   },
   {
+    alt: "I am cold",
+    caption: "I am cold",
+    src: "/artwork/iamcold.webp",
+  },
+  {
     alt: "Fish Boy",
     caption: "Fishboy",
     src: "/artwork/fishboy2.webp",
