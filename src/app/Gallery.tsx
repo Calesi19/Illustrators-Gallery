@@ -10,6 +10,11 @@ const imagesArray = [
     src: "/artwork/sunflower.webp",
   },
   {
+    alt: "Bread Boat",
+    caption: "Bread Boat",
+    src: "/artwork/bread-boat.webp",
+  },
+  {
     alt: "Father's Love",
     caption: "Father's Love",
     src: "/artwork/father-love.webp",
