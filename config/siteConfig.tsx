@@ -6,7 +6,7 @@ export const siteConfig = {
   title: "illustrations",
   about_headline: "Creating Children's Illustrations",
   about_body:
-    "I am a freelance illustrator based in Minnesota. I specialize in paint and digital illustrations for children's books. I am currently available for freelance work.",
+    "Jayme Wahlquist is an Illustrator based in Minnesota. She has been making art since she could hold a pencil and incorporates her Colombian roots into her artwork. She loves traveling, reading, running, and spending time with her family. She grew up speaking Spanish and also enjoys singing and dancing to traditional Latin music. Jayme received a Bachelor's degree in Illustration with a minor in Psychology from Brigham Young University-Idaho. She works primarily in watercolor, acrylic, and digital mediums. In addition to her freelance artwork, Jayme works as an Early Childhood paraprofessional. She loves working with children, spending time outside, and creating beautiful artwork!",
   email: "jayme0311@gmail.com",
   phone: "612-242-0890",
   linkedin: "https://www.linkedin.com/in/jayme-wahlquist-b5148a25a/",
