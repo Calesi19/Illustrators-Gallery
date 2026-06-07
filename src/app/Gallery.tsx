@@ -20,6 +20,11 @@ const imagesArray = [
     src: "/artwork/father-love.webp",
   },
   {
+    alt: "Lighthouse",
+    caption: "Lighthouse",
+    src: "/artwork/lighthouse.webp",
+  },
+  {
     alt: "Colombia Poster",
     caption: "Colombia Poster",
     src: "/artwork/colombia-poster.webp",
@@ -38,6 +43,11 @@ const imagesArray = [
     alt: "Girl in the Woods",
     caption: "Girl in the Woods",
     src: "/artwork/girl-in-woods.webp",
+  },
+  {
+    alt: "Lighthouse",
+    caption: "Lighthouse",
+    src: "/artwork/lighthouse2.webp",
   },
   {
     alt: "Fireworks",
