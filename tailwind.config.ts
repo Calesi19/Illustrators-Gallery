@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        ink: "var(--ink)",
+        "ink-soft": "var(--ink-soft)",
+        pencil: "var(--pencil)",
+      },
       fontFamily: {
-        sketch: ["Cabin Sketch", "sans-serif"],
-        dekko: ["Dekko", "sans-serif"],
+        sketch: ["var(--font-sketch)", "Cabin Sketch", "sans-serif"],
+        dekko: ["var(--font-dekko)", "Dekko", "sans-serif"],
       },
       container: {
         center: true,

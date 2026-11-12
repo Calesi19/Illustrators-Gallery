@@ -3,60 +3,182 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 246, 246, 246;
-  --background-end-rgb: 246, 246, 246;
+  --ink: #2b2b2b;
+  --ink-soft: #555555;
+  --pencil: #3567b0; /* the one coloured pencil */
+  --paper: #ffffff;
+
+  --dur-fast: 0.18s;
+  --dur-base: 0.45s;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-
-@font-face {
-  font-family: "Dekko";
-  src: url("../../public/fonts/Dekko-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: "Cabin Sketch";
-  src: url("../../public/fonts/CabinSketch-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   position: relative;
-  background-color: white;
   min-height: 100vh;
+  color: var(--ink);
+  background-color: var(--paper);
 }
 
+/* Canvas paper texture */
 body::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url('/canvas.webp');
+  inset: 0;
+  background-image: url("/canvas.webp");
   background-repeat: repeat;
-  opacity: 0.3; /* Adjust the opacity as needed */
+  opacity: 0.3;
   z-index: -1;
 }
 
+::selection {
+  background: var(--pencil);
+  color: #fff;
+}
 
+:focus-visible {
+  outline: 2px dashed var(--pencil);
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+
+/* ---------- Pencil outline ---------- */
+
+.sketch-frame path {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.sketch-frame path:nth-child(n + 2) {
+  visibility: hidden;
+}
+
+/* Each pass is visible for a third of the cycle */
+@keyframes boil {
+  0% {
+    visibility: visible;
+  }
+  33.4%,
+  100% {
+    visibility: hidden;
+  }
+}
+
+/* The line "boils" while its owner is hovered or focused */
+.sketch-host:hover .sketch-frame path,
+.sketch-host:focus-visible .sketch-frame path {
+  animation: boil 0.45s steps(1, end) infinite;
+}
+
+.sketch-host:hover .sketch-frame path:nth-child(2),
+.sketch-host:focus-visible .sketch-frame path:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.sketch-host:hover .sketch-frame path:nth-child(3),
+.sketch-host:focus-visible .sketch-frame path:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+/* ---------- Squiggle underline ---------- */
+
+.squiggle {
+  display: block;
+  overflow: visible;
+}
+
+.squiggle path {
+  fill: none;
+  stroke: var(--pencil);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+/* Undrawn by default: clipped away from the right, revealed left to right */
+.squiggle {
+  clip-path: inset(-4px 100% -4px -4px);
+  transition: clip-path var(--dur-base) var(--ease-out);
+}
+
+.squiggle-host:hover .squiggle,
+.squiggle-host:focus-visible .squiggle,
+.squiggle--drawn {
+  clip-path: inset(-4px);
+}
+
+@keyframes draw {
+  from {
+    clip-path: inset(-4px 100% -4px -4px);
+  }
+}
+
+.squiggle--drawn {
+  animation: draw 0.7s var(--ease-out) 0.1s backwards;
+}
+
+.squiggle--ink path {
+  stroke: var(--ink);
+  stroke-width: 1.5;
+  opacity: 0.45;
+}
+
+/* ---------- Gallery ---------- */
+
+.art-img {
+  opacity: 0;
+  transition: opacity 0.6s var(--ease-out);
+}
+
+.art-img[data-loaded="true"] {
+  opacity: 1;
+}
+
+.art-frame,
+.art-label {
+  opacity: 0;
+  transition: opacity var(--dur-fast) ease-out;
+}
+
+.sketch-host:hover .art-frame,
+.sketch-host:focus-visible .art-frame,
+.sketch-host:hover .art-label,
+.sketch-host:focus-visible .art-label {
+  opacity: 1;
+}
+
+.lightbox::backdrop {
+  background: rgba(250, 250, 250, 0.97);
+}
+
+@keyframes lightbox-in {
+  from {
+    opacity: 0;
+    transform: scale(0.985);
+  }
+}
+
+.lightbox[open] .lightbox-art {
+  animation: lightbox-in var(--dur-base) var(--ease-out);
+}
+
+/* ---------- Reduced motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+  }
+}
