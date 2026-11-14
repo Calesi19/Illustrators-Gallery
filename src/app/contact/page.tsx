@@ -8,7 +8,11 @@ import {
 } from "react-icons/pi";
 import { SketchFrame, Squiggle } from "../Sketch";
 
-export const metadata: Metadata = { title: "Contact" };
+export const metadata: Metadata = {
+  title: "Contact",
+  description: siteConfig.descriptions.contact,
+  openGraph: { title: "Contact", description: siteConfig.descriptions.contact },
+};
 
 export default function Contact() {
   return (

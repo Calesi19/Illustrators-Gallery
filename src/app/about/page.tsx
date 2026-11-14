@@ -4,7 +4,11 @@ import React from "react";
 import Image from "next/image";
 import { Squiggle } from "../Sketch";
 
-export const metadata: Metadata = { title: "About" };
+export const metadata: Metadata = {
+  title: "About",
+  description: siteConfig.descriptions.about,
+  openGraph: { title: "About", description: siteConfig.descriptions.about },
+};
 
 export default function About() {
   return (
